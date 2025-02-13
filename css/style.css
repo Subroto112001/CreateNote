@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: cadetblue;
+  color: #fff;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+.notes-header {
+  font-size: 35px;
+  font-weight: 600;
+
+ 
+}
+.HeaderExtra{
+
+}
+.Createbtn {
+  padding: 15px 25px;
+ background: linear-gradient(#9418fd , #571094);
+  border-radius: 45px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.NoteContainers{
+    position: relative;
+      max-width: 500px;
+  min-height: 150px;
+}
+
+
+.NoteInputBox {
+ 
+  max-width: 500px;
+  min-height: 150px;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+ border: 2px solid #9418fd;
+  border-radius: 5px ;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+}
+.Delete{
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
